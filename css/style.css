@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+/*   共通のスタイル   */
+html {
+  font-size: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo {
+  position: fixed;
+  width: 80px;
+  margin: 10px;
+  border-radius: 10px;
+  border-style: outset;
+  border-color: darkgoldenrod;
+}
+
+#page-header {
+  display: flex;
+}
+
+
+
+.nav {
+  display: block;
+  position: fixed;
+  padding-top: 25px;
+  top: 0px;
+  right: -300px;
+  bottom: 0px;
+  width: 300px;
+  background: #fff;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: all 0.5s;
+  z-index: 3;
+  opacity: 0.5;
+}
+
+
+
+.open .nav {
+  right: 0;
+  opacity: 0.8;
+  padding: 25px;
+}
+
+.nav-item {
+  position: relative;
+  margin: 0px;
+  border-bottom: 1px solid #333 ;
+}
+.nav-item a:nth-child(1) {
+  font-size: 20px;
+  margin-top: 40px;
+  color: #333;
+  transition-duration: 1.5s;
+}
+.nav-item a {
+  font-size: 20px;
+  margin-top: 22.5px;
+  color: #333;
+  transition-duration: 1.5s;
+}
+
+.nav-item a:hover{
+  background-color: #e1c0b6;
+}
+
+#mask{
+  transition: all 0.9s;
+}
+
+.open #mask {
+  display: block;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.7;
+  z-index: 2;
+  cursor: pointer;
+
+}
+
+
+.toggle_btn {
+  display: block;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  transition: all .8s;
+  cursor: pointer;
+  z-index: 4;
+  
+}
+
+.toggle_btn span {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  border-radius: 4px;
+  transition: all .8s;
+}
+
+.toggle_btn span:nth-child(1) {
+  top: 4px;
+}
+.toggle_btn span:nth-child(2) {
+  top: 14px;
+}
+.toggle_btn span:nth-child(3) {
+  bottom: 4px;
+}
+
+.open .toggle_btn span {
+  background-color: #333;
+}
+
+.open .toggle_btn span:nth-child(1){
+  transform: translateY(10px) rotate(-315deg);
+}
+
+.open .toggle_btn span:nth-child(2){
+  opacity: 0;  
+}
+
+.open .toggle_btn span:nth-child(3){
+  transform: translateY(-10px) rotate(315deg);   
+}
+
+
+
+
+
+/*   Homeのスタイル   */
+#home .mainImg {
+  width: 100%;
+}
+
+main {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.page-title {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 3em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+/*   Menuのスタイル   */
+#menu {
+  background-color: #fff;  
+  min-height: 100vh;
+}
+
+#menu .page-title {
+  color: #e1c0b6;
+ 
+}
+
+
+
+
+/*   Accessのスタイル   */
+#access {
+  background-color: #fff;  
+  min-height: 100vh;
+}
+
+#access .page-title {
+  color: #e1c0b6;
+  
+}
