@@ -160,7 +160,11 @@ img {
   width: 100%;
 }
 
-
+#home main {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
@@ -176,6 +180,11 @@ img {
  
 }
 
+#menu main {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
