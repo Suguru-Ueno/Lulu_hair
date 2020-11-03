@@ -23,7 +23,19 @@ img {
 }
 
 
+.page-title {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 3em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+}
 
+
+
+
+/* ハンバーガーメニュー */
 .nav {
   display: block;
   position: fixed;
@@ -148,21 +160,6 @@ img {
   width: 100%;
 }
 
-main {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-
-.page-title {
-  text-align: center;
-  margin-top: 5%;
-  font-size: 3em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: rgb(0, 0, 0);
-}
-
 
 
 
@@ -185,10 +182,42 @@ main {
 /*   Accessのスタイル   */
 #access {
   background-color: #fff;  
-  min-height: 100vh;
 }
 
 #access .page-title {
   color: #e1c0b6;
   
+}
+
+
+
+#access .wrapper {
+  display: flex;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#access .info {
+  width: 50%;
+}
+
+#access .info h2 {
+  border-bottom: 2px solid #e1c0b6;
+}
+
+#access .info a {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#access .info a:hover{
+  color: #e1c0b6;
+}
+
+#access .info-img {
+  text-align: center;
+  width: 35%;
 }
