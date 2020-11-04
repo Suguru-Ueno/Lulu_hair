@@ -161,7 +161,7 @@ img {
 }
 
 #home main {
-  width: 60%;
+  width: 62.5%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -181,7 +181,7 @@ img {
 }
 
 #menu main {
-  width: 60%;
+  width: 62.5%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -198,13 +198,14 @@ img {
   
 }
 
-
+#access main {
+  width: 62.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #access .wrapper {
   display: flex;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 
@@ -214,6 +215,7 @@ img {
 
 #access .info h2 {
   border-bottom: 2px solid #e1c0b6;
+  padding-bottom: 5px;
 }
 
 #access .info a {
@@ -229,4 +231,27 @@ img {
 #access .info-img {
   text-align: center;
   width: 35%;
+}
+
+#access .info dl {
+  display: flex;
+  
+}
+
+#access .info dt {
+  width: 30%;
+  padding: 20px;
+  border-bottom: 1px solid #e1c0b6;
+
+}
+
+#access .info dd {
+  padding: 20px;
+  margin: 0;
+  width: 70%;
+  border-bottom: 1px solid #e1c0b6;
+}
+
+#access iframe {
+  margin: 20px 0;
 }
