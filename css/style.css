@@ -194,8 +194,12 @@ img {
 }
 
 #access .page-title {
+  width: 62.5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
   color: #e1c0b6;
-  
+  border-bottom: double ;
 }
 
 #access main {
