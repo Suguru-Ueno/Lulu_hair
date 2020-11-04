@@ -13,9 +13,6 @@ img {
   position: fixed;
   width: 80px;
   margin: 10px;
-  border-radius: 10px;
-  border-style: outset;
-  border-color: darkgoldenrod;
 }
 
 #page-header {
@@ -176,8 +173,12 @@ img {
 }
 
 #menu .page-title {
+  width: 62.5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
   color: #e1c0b6;
- 
+  border-bottom: double ;
 }
 
 #menu main {
@@ -186,6 +187,50 @@ img {
   margin-right: auto;
 }
 
+
+#menu main dl {
+  display: flex;
+}
+
+#menu main dt {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px;
+  font-weight: normal;
+}
+
+#menu main dt::after {
+  border-top: 1px dashed #e1c0b6;
+  opacity: 0.375;
+  content: "";
+  flex-grow: 1;
+  margin-left: 1rem;
+}
+
+#menu main dd {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px;
+}
+
+
+
+#menu main h3 {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+#menu main h3::after {
+  border-top: 1px solid #e1c0b6;
+  content: "";
+  flex-grow: 1;
+  margin-left: 1rem;
+}
 
 
 /*   Accessのスタイル   */
