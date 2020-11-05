@@ -214,7 +214,7 @@ footer {
 #menu main dt {
   display: flex;
   align-items: center;
-  width: 70%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   padding: 10px 10px;
@@ -230,7 +230,7 @@ footer {
 }
 
 #menu main dd {
-  width: 30%;
+  width: 20%;
   margin-left: auto;
   margin-right: auto;
   padding: 10px 10px;
@@ -249,6 +249,23 @@ footer {
   content: "";
   flex-grow: 1;
   margin-left: 1rem;
+}
+
+#menu main {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.menu-item {
+  width: 45%;
+  margin-left:2.5%;
+  margin-right: 2.5%;
+  
+}
+
+#menu main p {
+  color: #e1c0b6;
 }
 
 
