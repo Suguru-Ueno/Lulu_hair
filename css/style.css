@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*   共通のスタイル   */
+/*   共通のスタイル  ------------------------- */
 html {
   font-size: 100%;
 }
@@ -51,7 +51,7 @@ footer {
 
 
 
-/* ハンバーガーメニュー */
+/* ハンバーガーメニュー -------------------------*/
 .nav {
   display: block;
   position: fixed;
@@ -171,7 +171,7 @@ footer {
 
 
 
-/*   Homeのスタイル   */
+/*   Homeのスタイル  ------------------------- */
 #home .mainImg {
   width: 100%;
 }
@@ -191,7 +191,7 @@ footer {
   max-width: 400px;
 }
 
-/*   Menuのスタイル   */
+/*   Menuのスタイル  ------------------------- */
 #menu {
   background-color: #fff;  
   min-height: 100vh;
@@ -276,7 +276,7 @@ footer {
 }
 
 
-/*   Accessのスタイル   */
+/*   Accessのスタイル  ------------------------- */
 #access {
   background-color: #fff;  
 }
@@ -350,4 +350,14 @@ footer {
 #access iframe {
   width: 100%;
   margin: 20px 0;
+}
+
+
+/* モバイル用-------------------------- */
+@media(max-width: 600px) {
+  /* Access---------------------------- */
+  #access .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }
