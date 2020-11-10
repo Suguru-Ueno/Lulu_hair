@@ -31,7 +31,7 @@ img {
   margin-top: 5%;
   margin-bottom: 5%;
   font-size: 3em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Mrs Saint Delafield', cursive;
   color: rgb(0, 0, 0);
 }
 
@@ -176,6 +176,10 @@ footer {
   width: 100%;
 }
 
+.main-title {
+  font-size: 4rem;
+}
+
 #home main {
   width: 62.5%;
   margin-left: auto;
@@ -200,6 +204,7 @@ footer {
   padding-bottom: 10px;
   color: #e1c0b6;
   border-bottom: double ;
+
 }
 
 #menu main {
@@ -283,6 +288,7 @@ footer {
   padding-bottom: 10px;
   color: #e1c0b6;
   border-bottom: double ;
+  font-weight: lighter;
 }
 
 #access main {
@@ -301,6 +307,8 @@ footer {
 }
 
 #access .info h2 {
+  font-family: 'Mrs Saint Delafield', cursive;
+  font-size: 3rem;
   border-bottom: 2px solid #e1c0b6;
   padding-bottom: 5px;
 }
@@ -326,7 +334,7 @@ footer {
 }
 
 #access .info dt {
-  width: 30%;
+  width: 35%;
   padding: 20px;
   border-bottom: 1px solid #e1c0b6;
 
@@ -335,7 +343,7 @@ footer {
 #access .info dd {
   padding: 20px;
   margin: 0;
-  width: 70%;
+  width: 65%;
   border-bottom: 1px solid #e1c0b6;
 }
 
