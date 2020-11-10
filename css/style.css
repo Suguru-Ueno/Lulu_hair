@@ -354,7 +354,7 @@ footer {
 
 
 /* モバイル用-------------------------- */
-@media(max-width: 600px) {
+@media (max-width: 600px) {
   /* Access---------------------------- */
   #access .wrapper {
     display: flex;
