@@ -8,7 +8,7 @@ html {
 /* フッターの固定 */
 body {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   min-height: 100vh;
 }
 
@@ -35,10 +35,14 @@ img {
   color: rgb(0, 0, 0);
 }
 
-
+main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 footer {
-  width: 62.5%;
+  width: 80%;
   bottom: 0px;
   margin-top: auto;
   margin-left: auto;
@@ -127,7 +131,7 @@ footer {
   transition: all .8s;
   cursor: pointer;
   z-index: 4;
-  
+
 }
 
 .toggle_btn span {
@@ -160,11 +164,11 @@ footer {
 }
 
 .open .toggle_btn span:nth-child(2){
-  opacity: 0;  
+  opacity: 0;
 }
 
 .open .toggle_btn span:nth-child(3){
-  transform: translateY(-10px) rotate(315deg);   
+  transform: translateY(-10px) rotate(315deg);
 }
 
 
@@ -180,11 +184,7 @@ footer {
   font-size: 4rem;
 }
 
-#home main {
-  width: 62.5%;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 /* .insta {
   margin: 0 auto;
@@ -193,12 +193,12 @@ footer {
 
 /*   Menuのスタイル  ------------------------- */
 #menu {
-  background-color: #fff;  
+  background-color: #fff;
   min-height: 100vh;
 }
 
 #menu .page-title {
-  width: 62.5%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 10px;
@@ -207,11 +207,6 @@ footer {
 
 }
 
-#menu main {
-  width: 62.5%;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 
 #menu main dl {
@@ -238,8 +233,7 @@ footer {
 
 #menu main dd {
   width: 20%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding: 10px 10px;
 }
 
@@ -265,10 +259,9 @@ footer {
 }
 
 .menu-item {
-  width: 45%;
-  margin-left:2.5%;
-  margin-right: 2.5%;
-  
+  width: 47.5%;
+  margin: 0.5% auto;
+
 }
 
 #menu main p {
@@ -278,11 +271,11 @@ footer {
 
 /*   Accessのスタイル  ------------------------- */
 #access {
-  background-color: #fff;  
+  background-color: #fff;
 }
 
 #access .page-title {
-  width: 62.5%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 10px;
@@ -291,14 +284,10 @@ footer {
   font-weight: lighter;
 }
 
-#access main {
-  width: 62.5%;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 #access .wrapper {
   display: flex;
+  padding-top: 50px;
 }
 
 
@@ -330,7 +319,7 @@ footer {
 
 #access .info dl {
   display: flex;
-  
+
 }
 
 #access .info dt {
@@ -354,19 +343,24 @@ footer {
 
 
 /* モバイル用-------------------------- */
-@media (max-width: 600px) {
+@media (max-width: 960px) {
   /*   共通のスタイル  ------------------------- */
- 
   #page-header {
     position: fixed;
     top: 0px;
     background: #fff;
     width: 100%;
-    height: 65px;
+    height: 55px;
+  }
+
+  .logo {
+    width: 55px;
+    height: 35px;
   }
 
   .page-title {
-    margin-top: calc( 65px + 5% );
+    font-size: 2rem;
+    margin-top: 65px;
   }
 
   .toggle_btn {
@@ -377,18 +371,76 @@ footer {
     right: -200px;
     width: 200px;
     padding: 5px;
-  } 
+  }
   .open .nav {
     right: 0;
     opacity: 0.8;
     padding: 5px;
   }
 
+  main {
+    width: 90%;
+
+  }
+
   /* home ----------------------------- */
-  
+  .main-title {
+    font-size: 2.5rem;
+  }
+  /* menu ----------------------------- */
+  #menu main {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.16rem;
+  }
+  #menu main h3 {
+    font-size: 1rem;
+  }
+  .menu-item {
+    width: 100%;
+  }
+
+  #menu .page-title {
+    width: 90%;
+  }
+
+
   /* Access---------------------------- */
   #access .wrapper {
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
+  }
+
+  #access .page-title {
+    width: 90%;
+  }
+
+  #access .info {
+    width: 95%;
+    margin: auto;
+    font-size: 0.16rem;
+  }
+
+  #access .info h2 {
+    font-size: 1.5rem;
+  }
+
+  #access .info-img {
+    text-align: center;
+    font-size: 0.16rem;
+    width: 95%;
+  }
+
+  #access iframe {
+    width: 100%;
+    height: 300px;
+    margin: 20px 0;
+  }
+  
+
+  /* フッター ------------------------- */
+  footer {
+    width: 90%;
   }
 }
