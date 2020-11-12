@@ -29,10 +29,14 @@ img {
 
 .page-title {
   text-align: center;
+  width: 100%;
   margin-top: 5% ;
+  margin-bottom: 3.75%;
   font-size: 3em;
   font-family: 'Mrs Saint Delafield', cursive;
-  color: rgb(0, 0, 0);
+  color: #e1c0b6;
+  border-bottom: double ;
+  font-weight: lighter;
 }
 
 main {
@@ -182,6 +186,13 @@ footer {
 
 .main-title {
   font-size: 4rem;
+  text-align: center;
+  margin-top: 5% ;
+  margin-bottom: 3.75%;
+  font-family: 'Mrs Saint Delafield', cursive;
+  color: #e1c0b6;
+  border-bottom: double ;
+  font-weight: lighter;
 }
 
 
@@ -192,22 +203,6 @@ footer {
 } */
 
 /*   Menuのスタイル  ------------------------- */
-#menu {
-  background-color: #fff;
-  min-height: 100vh;
-}
-
-#menu .page-title {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 10px;
-  color: #e1c0b6;
-  border-bottom: double ;
-
-}
-
-
 
 #menu main dl {
   display: flex;
@@ -274,15 +269,6 @@ footer {
   background-color: #fff;
 }
 
-#access .page-title {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 10px;
-  color: #e1c0b6;
-  border-bottom: double ;
-  font-weight: lighter;
-}
 
 
 #access .wrapper {
@@ -298,6 +284,7 @@ footer {
 #access .info h2 {
   font-family: 'Mrs Saint Delafield', cursive;
   font-size: 3rem;
+  font-weight: lighter;
   border-bottom: 2px solid #e1c0b6;
   padding-bottom: 5px;
 }
@@ -342,7 +329,7 @@ footer {
 }
 
 
-/* モバイル用-------------------------- */
+/* モバイル用---------------------------------------------------*/
 @media (max-width: 960px) {
   /*   共通のスタイル  ------------------------- */
   #page-header {
@@ -361,6 +348,9 @@ footer {
   .page-title {
     font-size: 2rem;
     margin-top: 65px;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .toggle_btn {
@@ -386,6 +376,8 @@ footer {
   /* home ----------------------------- */
   .main-title {
     font-size: 2.5rem;
+    margin-top: 65px;
+    margin-bottom: 5%;
   }
   /* menu ----------------------------- */
   #menu main {
@@ -397,10 +389,6 @@ footer {
     width: 100%;
   }
 
-  #menu .page-title {
-    width: 90%;
-  }
-
 
   /* Access---------------------------- */
   #access .wrapper {
@@ -409,9 +397,6 @@ footer {
     padding-top: 20px;
   }
 
-  #access .page-title {
-    width: 90%;
-  }
 
   #access .info {
     width: 95%;
