@@ -9,6 +9,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  font-family: 'Noto Sans JP', sans-serif;
   min-height: 100vh;
 }
 
@@ -33,7 +34,7 @@ img {
   margin-top: 5% ;
   margin-bottom: 3.75%;
   font-size: 3em;
-  font-family: 'Mrs Saint Delafield', cursive;
+  font-family: 'Noto Sans JP', sans-serif;
   color: #e1c0b6;
   border-bottom: double ;
   font-weight: lighter;
@@ -237,6 +238,7 @@ footer {
 #menu main h3 {
   display: flex;
   align-items: center;
+  font-family: 'Noto Sans JP', sans-serif;
   margin: 10px 0;
 }
 
