@@ -118,7 +118,9 @@ footer {
   margin-top: 5%;
 }
 
-
+.sns-logo {
+  margin: 0 12.5px;
+}
 
 #mask{
   transition: all 0.9s;
