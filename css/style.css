@@ -323,7 +323,9 @@ footer {
 
 #access .info-img {
   text-align: center;
-  width: 35%;
+  width: 45%;
+  margin: auto;
+  padding-top: 2.5%;
 }
 
 #access .info dl {
