@@ -472,6 +472,27 @@ footer {
     z-index: -1;
   }
 
+  .fading .src1 {
+    background-image: url("../images/Lulu1sp.jpg");
+  }
+  
+  .fading .src2 {
+    background-image: url("../images/Lulu2sp.jpg");
+  }
+  
+  .fading .src3 {
+    background-image: url("../images/Lulu3sp.jpg");
+  }
+  
+  .fading .src4 {
+    background-image: url("../images/Lulu4sp.jpg");
+  }
+  
+  .fading .src5 {
+    background-image: url("../images/Lulu5sp.jpg");
+  }
+  
+
   /* menu ----------------------------- */
   #menu main {
     display: flex;
